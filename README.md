@@ -7,6 +7,8 @@ manipulation of the [on-screen display](http://en.wikipedia.org/wiki/On-screen_d
 For example, try something like the following:
 
 ```racket
+#lang racket
+
 (require aosd plot)
 
 (with-aosd 0 0 300 300
@@ -15,6 +17,8 @@ For example, try something like the following:
               (λ (x y) (vector (+ x y) (- x y)))
               -2 2 -2 2)
      dc 0 0 300 300)))
+
+(sleep 5)
 ```
 
 ---
