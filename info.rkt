@@ -1,3 +1,3 @@
 #lang setup/infotab
-(define deps '())
+(define deps '("x11"))
 
