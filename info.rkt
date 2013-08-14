@@ -1,3 +1,4 @@
 #lang setup/infotab
-(define deps '("x11"))
 
+(define collection 'multi)
+(define deps '("base" "draw-lib" "x11"))
